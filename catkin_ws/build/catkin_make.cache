@@ -1,0 +1,2 @@
+ROS-TCP-Endpoint
+-DCATKIN_DEVEL_PREFIX=/home/farooq/Documents/BlueROVCompetition/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/farooq/Documents/BlueROVCompetition/catkin_ws/install -G Unix Makefiles
