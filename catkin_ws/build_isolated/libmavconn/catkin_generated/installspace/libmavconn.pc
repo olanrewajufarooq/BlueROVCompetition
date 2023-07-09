@@ -1,0 +1,8 @@
+prefix=/home/farooq/Documents/BlueROVCompetition/catkin_ws/install_isolated
+
+Name: libmavconn
+Description: Description of libmavconn
+Version: 1.13.0
+Cflags: -I${prefix}/include -I/usr/include -I/home/farooq/Documents/BlueROVCompetition/catkin_ws/devel_isolated/mavlink/include
+Libs: -L${prefix}/lib -lmavconn /usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0 /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
+Requires: 

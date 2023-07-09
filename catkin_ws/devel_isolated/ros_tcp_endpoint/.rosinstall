@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/farooq/Documents/BlueROVCompetition/catkin_ws/devel_isolated/ros_tcp_endpoint/setup.sh

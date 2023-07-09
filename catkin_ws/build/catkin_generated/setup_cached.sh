@@ -8,4 +8,3 @@
 
 # modified environment variables
 export PWD='/home/farooq/Documents/BlueROVCompetition/catkin_ws/build'
-export PYTHONPATH="/home/farooq/Documents/BlueROVCompetition/catkin_ws/devel/lib/python3/dist-packages:$PYTHONPATH"

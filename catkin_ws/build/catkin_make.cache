@@ -1,2 +1,2 @@
-ROS-TCP-Endpoint
+ROS-TCP-Endpoint:mavlink:mavros/libmavconn:mavros/mavros:mavros/mavros_extras:mavros/mavros_msgs:mavros/test_mavros:vision_sim
 -DCATKIN_DEVEL_PREFIX=/home/farooq/Documents/BlueROVCompetition/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/farooq/Documents/BlueROVCompetition/catkin_ws/install -G Unix Makefiles

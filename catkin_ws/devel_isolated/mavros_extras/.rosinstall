@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/farooq/Documents/BlueROVCompetition/catkin_ws/devel_isolated/mavros_extras/setup.sh

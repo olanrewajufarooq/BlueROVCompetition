@@ -103,6 +103,7 @@ def callback_camara_servo(data):
     	
     else:
     	set_rc_channel_pwm(8, 1500)
+	
     pub.publish(channels)
 
 

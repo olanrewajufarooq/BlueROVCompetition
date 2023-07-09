@@ -1,0 +1,8 @@
+prefix=/home/farooq/Documents/BlueROVCompetition/catkin_ws/install_isolated
+
+Name: vision_sim
+Description: Description of vision_sim
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
