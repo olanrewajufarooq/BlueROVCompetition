@@ -89,6 +89,7 @@ Docking of the BlueROV autonomously in the Test Pool
 * Farooq Olanrewaju - olanrewajufarooq@yahoo.com, farooq-olanrewaju@etud.univ-tln.fr
 * Md Sazidur
 * AbdelHaleem Saad
+* Maria Saleem
 
 <strong>Supervisor</strong>: Prof. Pedro Sanz, <i>Jaume I University</i>; Prof V. Hugel, <i>Director COSMER Lab, Université de Toulon</i>.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
