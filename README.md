@@ -29,11 +29,13 @@
 
 ## Description
 
-The Sparus autonomous underwater vehicle, developed by IQUA Robotics, is specialized for shallow waters up to 200 meters deep. It features a rear configuration with two horizontal thrusters and a central vertical thruster, enabling precise maneuverability. The vehicle is equipped with an antenna for wireless communication, a Doppler Velocity Log (DVL) and an Ultra-Short Baseline (USBL) system for accurate navigation, an Inertial Measurement Unit (IMU) for orientation, and depth sensors for depth measurement. The vehicle's modeling approach is tailored to optimize control by effectively utilizing its parameters, ensuring reliable and precise performance in its designated tasks underwater.
+The BlueROV is a remotely operated underwater vehicle that has four vertical thrusters and four aximuthally-positioned horizontal thrusters. The robot has a couple of sensors integrated into it, including: depth sensor or pressure sensor, sonars and high-definition camera. The robot is usually conntected to the ground station using an optical fibre or any other suitable cable. This Robot was used in the Robotics Challenge in CIRTESU, Jaume I University.
+
+The Robotics Challenge involves the localization and control of the BlueROV for autonomous docking, treasure search and static object inspection. However, in this repository only the first two tasks are implemented.
 
 <p align="center">
-  <img src="ReadME/sparus.png" alt="Sparus Image">
-  <br />Image of IQUA Robotics Sparus
+  <img src="ReadME/bluerov.jpg" alt="Sparus Image">
+  <br />Image of (Heavy Configuration) BlueROV
 </p>
 
 ### Tasks Completed in the project include:
@@ -44,11 +46,11 @@ The Sparus autonomous underwater vehicle, developed by IQUA Robotics, is special
 4. Visual Servoing (Robot control using continuous image feed).
 5. Testing in a controlled environment
 
-The original simulator is in the `SparusSim` folder (although there are a couple of problems in the original simulator which have been corrected in the `SimSolution` folder) while the solutions from the modelling and testing are implemented in the `SimSolution` folder. Tasks 1-3 are initially developped in the `SparusIICalculations.mlx` file. While tasks 1-4 are implemented in the files: `SimSolution/parameters.m` and `SimSolution/RovModel.m`. The validation is evaluated by running the simulator in `SimSolution/Sparus_3D_advance_model.mdl` while the data obtained are plotted using the codes in `SimSolution/plotting.m`.
+Videos are otained from the treasures that are desired to the hunted. These videos are converted to images in the `VideoToPic` folder using the `VideoToPic/vid_to_pic.py` file. Thereafter, the extracted images are processed on <a href="https://roboflow.com/">RoboFlow</a> - annotation, augmentation and bounding-box definitions, class definition, etc. Then, the model was trained on Yolov5 model using Google Colab. The codes for the remaining tasks are implemented in `catkin_ws/src/vision_sim` folder.
 
 ## Tools Used
 
-- Pyhon Programming
+- Python Programming
 - RoboFlow
 - Robot Operating System
 - PyTorch
