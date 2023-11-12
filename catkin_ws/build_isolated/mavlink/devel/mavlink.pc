@@ -1,8 +1,0 @@
-prefix=/home/farooq/Documents/BlueROVCompetition/catkin_ws/devel_isolated/mavlink
-exec_prefix=/home/farooq/Documents/BlueROVCompetition/catkin_ws/devel_isolated/mavlink
-includedir=${prefix}/include
-
-Name: mavlink
-Description: MAVLink micro air vehicle marshalling / communication library
-Version: 2022.1.5
-Cflags: -I${includedir}

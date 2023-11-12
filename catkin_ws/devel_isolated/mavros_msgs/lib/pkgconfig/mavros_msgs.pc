@@ -1,8 +1,0 @@
-prefix=/home/farooq/Documents/BlueROVCompetition/catkin_ws/devel_isolated/mavros_msgs
-
-Name: mavros_msgs
-Description: Description of mavros_msgs
-Version: 1.13.0
-Cflags: -I/home/farooq/Documents/BlueROVCompetition/catkin_ws/devel_isolated/mavros_msgs/include -I/home/farooq/Documents/BlueROVCompetition/catkin_ws/src/mavros/mavros_msgs/include
-Libs: -L${prefix}/lib 
-Requires: geographic_msgs geometry_msgs message_runtime sensor_msgs std_msgs
